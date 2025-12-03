@@ -1,0 +1,90 @@
+# Create a UI-only mockup specification for the dashboard
+
+**Task ID:** T-002
+**Status:** DONE
+**Importance:** MUST
+**Complexity:** 8/10
+**Urgency:** 9/10
+**Dependencies:** None
+
+## Description
+
+# UI Mockup Specification
+
+You are a UX/UI design AI tasked with producing a comprehensive UI-only mockup spec for our Next.js project management dashboard. Include the following sections:
+
+## Product Summary
+A cloud-based project management dashboard that helps teams track tasks, timelines, and resources.
+
+## Target Users
+- Project Managers
+- Team Members
+- Stakeholders
+
+## Design Mood
+Professional, clean, minimalistic, and data-focused.
+
+## Color Palette
+Use the color palette defined in T-001 (Primary, Secondary, Accent, Grayscale).
+
+## UI Guidelines
+- Spacing: Use an 8px grid.
+- Corner Radius: 4px.
+- Shadows: Subtle depth for cards and modals.
+- Iconography: Use Lucide icons.
+
+## User Journey
+Display the following flow with arrows:
+
+  Login → Dashboard Overview → Task Details → Create/Edit Task → Confirmation
+
+## Common Components
+- Navigation Bar
+- Sidebar
+- Data Table
+- Cards
+- Buttons (Primary, Secondary, Text)
+- Modals
+- Forms (Input, Select, Date Picker)
+
+## Sitemap
+- /login (Guest)
+- /signup (Guest)
+- /dashboard (Authenticated: All Roles)
+- /dashboard/tasks (Authenticated: All Roles)
+- /dashboard/reports (Authenticated: Managers)
+
+## Page Implementations
+For each page, define:
+- Core Purpose
+- Key Components
+- Layout Structure
+
+Example:
+**/dashboard**
+- Core Purpose: Provide an overview of active projects and stats.
+- Key Components: Summary cards, recent activity feed, charts.
+- Layout Structure: 3-column grid (Sidebar | Main content | Activity feed).
+
+## Layout Components
+For each route, specify:
+- Applicable Routes
+- Core Components Used
+- Responsive Behavior (mobile, tablet, desktop)
+
+Please structure your output as a single markdown document with clear headings and subheadings.
+
+MUST Guidelines:
+- only implement what is written in prompt.
+- tidy first.
+- Implement UI-only mockup only. Use **dummy data** for now.
+- Be sure every routing works.
+-Be sure root route works.
+
+
+  
+
+---
+
+**Created:** 2025-12-03T01:12:43.937Z
+**Updated:** 2025-12-03T04:25:26.070Z

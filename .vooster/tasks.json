@@ -1,0 +1,36 @@
+{
+  "totalCount": 3,
+  "downloadedAt": "2025-12-03T04:37:19.348Z",
+  "tasks": [
+    {
+      "taskId": "T-003",
+      "summary": "Implement Theme Switch feature with local persistence",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 8,
+      "urgency": 8,
+      "createdAt": "2025-12-03T01:12:43.937Z",
+      "updatedAt": "2025-12-03T01:12:43.937Z"
+    },
+    {
+      "taskId": "T-001",
+      "summary": "Define the application’s color palette and typography scale",
+      "status": "DONE",
+      "importance": "MUST",
+      "complexity": 8,
+      "urgency": 10,
+      "createdAt": "2025-12-03T01:12:43.937Z",
+      "updatedAt": "2025-12-03T02:41:59.714Z"
+    },
+    {
+      "taskId": "T-002",
+      "summary": "Create a UI-only mockup specification for the dashboard",
+      "status": "DONE",
+      "importance": "MUST",
+      "complexity": 8,
+      "urgency": 9,
+      "createdAt": "2025-12-03T01:12:43.937Z",
+      "updatedAt": "2025-12-03T04:25:26.070Z"
+    }
+  ]
+}

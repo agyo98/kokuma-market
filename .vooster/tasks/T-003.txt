@@ -1,0 +1,54 @@
+# Implement Theme Switch feature with local persistence
+
+**Task ID:** T-003
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 8/10
+**Urgency:** 8/10
+**Dependencies:** None
+
+## Description
+
+# Feature Implementation: Theme Switch
+
+You are a front-end developer AI working on our Next.js 15 dashboard. Implement a theme toggle (light/dark) feature. Provide detailed guidance as follows:
+
+## User Journey
+User lands on any page → Clicks theme toggle in navbar → Application switches theme → Choice persists on page reload → Toggle remains in chosen state
+
+Display this flow with arrows:  
+Landing Page → Click Toggle → Apply Theme → Save Preference → Reload with Same Theme
+
+## Functional Requirements
+1. A toggle button in the top navigation to switch between light and dark.
+2. Current theme should apply to all components (colors, backgrounds, text).
+3. Persist user preference in localStorage.
+4. Default to system preference on first load.
+
+## Data Flow
+1. UI Toggle emits an event →
+2. ThemeContext updates theme state →
+3. Write preference to localStorage →
+4. Next.js root layout reads localStorage or system setting on mount →
+5. Provide theme state via React Context to styled components.
+
+Provide:
+- Code snippets for ThemeContext (with React.createContext).
+- Hook `useTheme` to read/write theme.
+- Integration in `app/layout.tsx`.
+- Tailwind CSS configuration changes for dark mode.
+
+Output the implementation as TypeScript code files ready to drop into the scaffolded project.
+
+MUST Guidelines:
+- only implement what is written in prompt.
+- tidy first.
+
+
+
+  
+
+---
+
+**Created:** 2025-12-03T01:12:43.937Z
+**Updated:** 2025-12-03T01:12:43.937Z

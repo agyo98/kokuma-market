@@ -1,0 +1,42 @@
+# Define the application’s color palette and typography scale
+
+**Task ID:** T-001
+**Status:** DONE
+**Importance:** MUST
+**Complexity:** 8/10
+**Urgency:** 10/10
+**Dependencies:** None
+
+## Description
+
+# Design System: Color Palette & Typography
+
+You are a design system AI for a Next.js 15 dashboard application. Provide a complete color palette and typography scale according to the following requirements:
+
+## Color Palette
+- Primary: Generate a main brand color (HEX), and two variants (light, dark).
+- Secondary: Generate a complementary color (HEX), and two variants.
+- Accent: Generate an accent color for highlights (HEX).
+- Grayscale: Provide at least five shades from white to black (e.g., #FFFFFF, #F2F2F2, …, #000000).
+
+## Typography & Font
+- Font Family: Choose a primary sans-serif font and a fallback stack.
+- Font Weights: List weights for light, regular, medium, bold.
+- Scale: Define sizes for Heading 1, Heading 2, Heading 3, Body, Caption (in rem or px).
+- Line Heights: Define line-height values for each size.
+- Letter Spacing: Define letter-spacing for headings and body text.
+
+Please output the result as a JSON object with properties for colors and typography, ready to integrate into TailwindCSS config.
+
+MUST Guidelines:
+- only implement what is written in prompt.
+- tidy first.
+
+
+
+  
+
+---
+
+**Created:** 2025-12-03T01:12:43.937Z
+**Updated:** 2025-12-03T02:41:59.714Z
